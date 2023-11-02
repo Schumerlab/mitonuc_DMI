@@ -1,0 +1,5 @@
+CALL_brood_variation = c("variable" = 22, "constant" = 16)
+Xbir_brood_variation = c("variable" = 0, "constant" = 8)
+Xmal_brood_variation = c("variable" = 0, "constant" = 11)
+fisher.test(rbind(CALL_brood_variation,Xbir_brood_variation))
+fisher.test(rbind(CALL_brood_variation,Xmal_brood_variation))
